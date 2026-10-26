@@ -1,0 +1,19 @@
+คุณกำลังทำงานใน VS Code workspace ของโปรเจกต์ใหม่ชื่อ bidsmith.co.uk
+
+อ่าน README.md, AGENTS.md และเอกสาร root ที่ README ระบุให้ครบก่อนลงมือ
+ไฟล์อยู่ใน root ของ workspace ไม่ใช่โฟลเดอร์เอกสารซ้อน
+
+ลงมือสร้างระบบจริง ไม่ใช่เพียงเขียนแผน:
+1. ตรวจไฟล์ git status และเครื่องมือ terminal/Node/npm/Git ที่ใช้ได้จริง
+2. ถ้ามีโค้ดให้ตรวจและรักษางานเดิมก่อน ถ้ามีเฉพาะเอกสารให้ scaffold แอปใน root ปัจจุบัน ห้ามสร้าง bidsmith.co.uk/bidsmith.co.uk
+3. ทำ Phase 0 แล้วทำเฟสต่อไปตาม TASKS.md โดยดำเนินงานส่วนที่ไม่ติดข้อจำกัดทันที
+4. สร้างโค้ด migrations และ tests จริง ติดตั้ง dependencies และรัน checks/build จริง
+5. ใช้ Next.js App Router + TypeScript, Firebase App Hosting, Supabase PostgreSQL/Auth/private Storage และ Google OAuth ผ่าน Supabase
+6. แยก IMPLEMENTED จาก VERIFIED ห้ามสร้างผลทดสอบหรือผล deploy ขึ้นเอง
+7. ถ้าต้องใช้ credentials ให้บอกชื่อ variable กับตำแหน่ง secure configuration ห้ามขอ secrets ในแชต
+8. ขออนุมัติก่อน paid activation, production deployment/migration, destructive actions, external communications/access grants และ domain/DNS changes
+9. ทำงานจนได้ local/staging product ที่ทดสอบได้ และ production/commercial release candidate พร้อมหลักฐานและ blockers ไม่หยุดเพียงส่งแผน
+
+อัปเดต records/ ให้ตรงกับสิ่งที่เกิดขึ้นจริง
+ตอบ Donny เป็นไทย เขียนโค้ด UI และเอกสารเทคนิคเป็นอังกฤษ
+เริ่มจากรายงานความสามารถจริง ไฟล์ที่พบ ผลตรวจ Phase 0 และ implementation batch แรก แล้วลงมือทำ
